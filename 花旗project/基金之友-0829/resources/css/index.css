@@ -1,0 +1,646 @@
+body {
+	background-color: #e4e0e0;
+	position: absolute;
+	font-family: "Microsoft yahei";
+	height: 100%;
+	width: 100%;
+}
+
+.helpborder{
+	padding-top:0px;
+	border-bottom-width: 0px;  
+}
+
+.footer{
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	height: 80px;
+}
+
+.whole_body {
+	margin: 0 auto;
+	border-bottom-width:0px;
+	width: 1000px;
+	background-color: white;
+	padding:0 0 0 0;
+}
+
+.header {
+	height: 90px;
+}
+
+#index_logo {
+	height: 60px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.top_link {
+	color:black;
+	font-size: 14px;
+}
+
+.main_nav {
+	width: 1000px;
+
+}
+
+.first_index {
+	height: 828px;
+	padding: 14px;
+}
+
+.fred {
+	color: red;
+}
+
+
+
+/* add by CH */
+
+
+/* buy_success.html*/
+.img1 {
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 20px; 
+	width: 250px;
+}
+
+.img2 {
+	display: block;
+	margin: 0 auto;	
+	margin-top: 150px;
+	width: 750px;
+}
+
+.return_home {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.return_home_a {
+	color: rgb(152, 152, 152);
+	font-size: 20px;
+}
+
+
+/* template header */
+
+.header_left {
+	float: left;
+	width: 30%;
+	height: 90px;
+}
+
+.header_right {
+	float: right;
+	width: 70%;
+	height: 90px;
+}
+
+.links {
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.search {
+	text-align: right;
+	margin-top: 17px;
+	margin-right: 35px;
+}
+
+.search_button {
+	vertical-align: bottom;
+	display: inline-block;
+	margin-left: -3px;
+	margin-top: -2px;
+	height: 26px;
+	background-color: rgb(231, 0, 18);
+	width: 58px;
+	color: white;
+	font-size: 10px;
+}
+
+.search_input {
+	vertical-align: bottom;
+	display: inline-block;
+	width: 167px;
+	background-color: rgb(238, 238, 238);
+	height: 24px;
+	margin-top: 1px;
+}
+
+
+/* template login&register info */
+
+#ad_show {
+	width: 70%;
+	height: 350px;
+	float: left;
+}
+
+#ad_show img {
+	width: 100%;
+	height: 350px;
+}
+
+#login_box, #profile_box {
+	width: 28%;
+	padding: 10px;
+	float: right;
+	height: 350px;
+	background-image: url(../images/login_background.png);
+	background-repeat:no-repeat;
+}
+
+.main_body {
+	margin-top:15 px;
+	height: 350px;
+}
+
+.login_title, .profile_title {
+	font-size: 22px;
+	color: rgb(230, 20, 11);
+}
+
+.field_username {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+
+.field_username label {
+	margin-right: 10px;
+}
+
+.field_password {
+	margin-left: 24px;
+	margin-top: 13px;
+}
+
+.field_password label {
+	margin-right: 15px;
+}
+
+.login_form {
+	margin-bottom: 8px;
+}
+
+.login_button {
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 16px;
+}
+
+.login_button button {
+	background-color: rgb(90, 90, 90);
+	color: white;
+}
+
+.online_bank {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.online_bank p {
+	margin-top: 10px;
+}
+
+.online_bank a {
+	color: red;
+}
+
+.large_context {
+	font-size: 20px;
+}
+
+.small_context {
+	margin: 7px 0;
+}
+
+.small_context a {
+	color: rgb(230, 20, 11);
+}
+
+.info_table {
+	margin-top: 60px;
+	height: 370px;
+}
+
+
+/* template nav */
+
+.bar {
+	width: 1001px;
+	position: relative;
+	top: -3px;
+	z-index: 5;
+}
+
+.nav_bar {
+	border: none!important;
+}
+
+.nav_bar a {
+	color: red!important;
+	margin-left: 11px;
+	border: 1px solid #d4d4d5!important;
+	border-radius: 8%!important;
+	z-index: 3;
+}
+
+.nav_active {
+	z-index: 11!important;
+	background-color: white!important;
+}
+
+.first_nav {
+	margin-left: 50px!important	;
+}
+
+
+/* template info */
+
+#treands {
+	float: left;
+	width: 65%;
+	font-size: 14px;
+}
+
+#treands th {
+	background-color: rgb(158, 152, 152);
+	color: white;
+}
+
+.more {
+	color: red;
+}
+
+.line_one {
+	font-weight: bold;
+}
+
+#news {
+	float: right;
+	width: 31%;
+	margin-top: 0;
+	padding:10px;
+}
+
+#news li {
+	list-style: none;
+	margin-top: 13px;
+}
+
+#news .new {
+	color: red;
+	margin-right: 5px;
+}
+
+#news ul {
+	padding-left: 8px;
+	padding-top: 5px;
+}
+
+#news li a {
+	color: black;
+}
+
+#news li a:hover {
+	color: #009fda;
+}
+
+#news_title {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(158, 152, 152);
+}
+
+#head_shot {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+#username {
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+
+/* template footer */
+
+.footer {
+	padding-top: 20px;
+}
+
+.footer-header a {
+	color: red;
+}
+
+
+/* buy_success.html*/
+
+.buy_content {
+	margin: 0 auto;
+	width: 800px;
+	height: 400px;
+	margin-top: 30px;
+}
+
+.buy_picture {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.buy_picture img {
+	width: 250px;
+	height: 340px;
+}
+
+.buy_detail {
+	float: right;
+	width: 50%;
+}
+
+.buy_detail li {
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+.buy_head {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 41px;	
+}
+
+.buy_num {
+	margin-left: 41px;
+}
+
+.buy_num input {
+	width:100px;
+}
+
+.buy_button {
+	background-color: rgb(229, 41, 39);
+	width: 150px;
+	margin-left: 115px;
+	height: 30px;
+}
+
+.buy_button a {
+	color: white;
+}
+
+.product_info {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.info_menu {
+	background: rgb(229, 229, 229)!important;
+}
+
+
+/* register.html */
+
+.message_line {
+	height: 50px;
+}
+
+#reg_back_but {
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	margin-right: 50px;
+}
+
+#reg_back_but img {
+	height: 50px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+#reg_info_title {
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+#register_box {
+	width: 740px;
+	margin: 0 auto;
+	background-image: url(../images/register_background.png);
+	margin-top: 50px;
+	padding: 10px;
+}
+
+#register_info {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#register_but {
+	background-color: red;
+	width: 100px;
+	margin-left: 90px;
+}
+
+#register_but a {
+	color: white;
+}
+
+#get_ic {
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+	float: right;
+	margin-top: 3px;
+}
+
+
+/* buy_confirm.html */
+
+.info_box {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 800px;
+	height: 400px;
+}
+
+.box1 {
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid rgb(212, 212, 212);
+	border-bottom: none;	
+}
+
+.box1 img {
+	width: 30px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+}
+
+.box1 p {
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.box_message {
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 35px;
+}
+
+.box_table {
+	width: 500px;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: rgb(250, 250, 250);
+}
+
+.box_table table {
+	border: 1px solid rgb(234, 234, 234)!important;
+}
+
+.num_show {
+	font-size: 20px;
+	color: red;
+}
+
+.box2 {
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid rgb(212, 212, 212);
+}
+
+.twocheck {
+	margin-left: 120px;
+}
+
+.box2 p {
+	color: rgb(186, 186, 186);
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.box2 label {
+	color: rgb(186, 186, 186)!important;
+	font-size: 10px!important;
+}
+
+#goon {
+	height: 40px;
+	width: 110px;
+	background-color: rgb(229, 41, 39);
+	font-size: 18px;
+	letter-spacing: 8px;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+#goon a {
+	color: white;
+}
+
+
+/* pay.html */
+
+.pay_page {
+	width: 720px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.money_to_pay {
+	color: red;
+	font-size: 25px;
+	margin-bottom: -10px;
+	text-indent: 15px;
+}
+
+.pay_way {
+	border: solid 1px rgb(214, 214, 214);
+	width: 530px;
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.pay_way_1 {
+	border-bottom: none;
+	margin-top: 20px;
+}
+
+.pay_form {
+	width: 230px;
+}
+
+#add_web_bank {
+	color: red;
+	border: 1px dashed red;
+	font-size: 5px;
+	margin-left: 10px;
+	background: white;
+	height: 18px;
+}
+
+.bank_list {
+	margin-left: 15px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.bank {
+	border: 1px dashed red;
+	font-size: 8px;
+	width: 100px;
+	height: 50px;
+	margin-left: 10px;
+	background: white;
+}
+
+.addmargintop {
+	margin-top: 12px;
+}
+
+.pay_password {
+	margin-left: 20px;
+	font-size: 13px;
+	margin-top: 80px;
+}
+
+.ui.button.pay_button {
+	background-color: red;
+	height: 35px;
+	margin-top: 40px;
+	color: white;
+	width: 120px;
+}
+
+#forget_pay_pw {
+	position: relative;
+	top: -27px;
+	left: 250px;
+	text-decoration: underline;
+}
+
+
+
+

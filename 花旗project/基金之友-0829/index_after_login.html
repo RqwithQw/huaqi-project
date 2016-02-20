@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>基金之友</title>
+		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+		<script src="resources/js/jquery.min.js"></script>
+		<script src="semantic/dist/semantic.js"></script>
+		<script src="resources/js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="whole_body">
+			<div class="header">
+				<div class="header_left">
+					<a href="index_before_login.html">
+						<img src="resources/images/logo.png" id="index_logo" alt="index_logo" name="index_logo">
+					</a>
+				</div>
+				<div class="header_right">
+					<div class="links">
+						<a href="web_map" class="top_link">网站地图</a>
+						|
+						<a href="contact_us" class="top_link">联系我们</a>
+						|
+						<a href="our_group" class="top_link">基友集团</a>
+						|
+						<a href="work_related" class="top_link">工作相关</a>
+					</div>
+					<div class="search">
+						<input class="search_input" type="text" placeholder="搜索...">
+						<button class="search_button">搜索</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="main_nav">
+			 	<div class="ui top attached tabular menu nav_bar">
+					<a class="item first_nav nav_active" href="index_before_login.html">主页</a>
+					<a class="item" href="#">最新信息</a>
+					<a class="item" href="#">购买指南</a>
+					<img src="resources/images/bar.png" class="bar">
+				</div>
+
+				<div class="first_index" style="border-bottom:0px;">
+					<div class="main_body">
+						<div id="ad_show">
+							<img src="resources/images/index_ad.png" alt="主页广告">
+						</div>
+						<div id="profile_box">
+							<span class="profile_title">用户</span>
+							<div class="head_shot_box">
+								<img src="resources/images/head_shot.jpg" alt="head_shot" name="head_shot" id="head_shot">
+								<p id="username">富裕的我</p>
+							</div>
+							<span class="profile_title">网上银行</span>
+							<div class="online_bank">
+								<span class="large_context">个人</span>
+									<p>
+										<a href="safe_info">安全信息</a>
+										|
+										<a href="account_setting">帐号设定</a>
+										|
+										<a href="my_bank">我的银行</a>
+										|
+										<a href="my_bank">注销</a>
+									</p>
+								<span class="large_context">业务</span>
+								<p>
+									<a href="had_bought">已购买的基金</a>
+									|
+									<a href="goto_market">前往基金市场</a>
+								</p>						
+							</div>
+						</div>
+					</div>
+
+					<div class="info_table">
+						<table class="ui celled striped table" id="treands">
+							<thead>
+								<tr>
+									<th colspan="7"><i class="line chart icon"></i>基金动态</th>
+								</tr> 
+							</thead>
+							<tbody>
+								<tr class="line_one">
+									<td class="single line">基金代码</td>
+									<td>简称</td>
+									<td>基金类型</td>
+									<td>单位净值</td>
+									<td>累计净值</td>
+									<td>日增长值</td>
+									<td>日增长率</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="buy.html">100522</a>
+									</td>
+									<td class="single line">
+										蓝翔技校
+									</td>
+									<td>
+										股票型
+									</td>
+									<td>0.9974</td>
+									<td>0.9974</td>
+									<td>0.0380</td>
+									<td class="negative">3.96%</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="buy.html">100522</a>
+									</td>
+									<td class="single line">
+										索尼大法好
+									</td>
+									<td>
+										股票型
+									</td>
+									<td>0.9974</td>
+									<td>0.9974</td>
+									<td>0.0380</td>
+									<td class="positive">-5.96%</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="buy.html">100522</a>
+									</td>
+									<td class="single line">
+										蓝翔技校
+									</td>
+									<td>
+										股票型
+									</td>
+									<td>0.9974</td>
+									<td>0.9974</td>
+									<td>0.0380</td>
+									<td class="negative">3.96%</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="buy.html">100522</a>
+									</td>
+									<td class="single line">
+										蓝翔技校
+									</td>
+									<td>
+										股票型
+									</td>
+									<td>0.9974</td>
+									<td>0.9974</td>
+									<td>0.0380</td>
+									<td class="negative">3.96%</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="buy.html">100522</a>
+									</td>
+									<td class="single line">
+										蓝翔技校
+									</td>
+									<td>
+										股票型
+									</td>
+									<td>0.9974</td>
+									<td>0.9974</td>
+									<td>0.0380</td>
+									<td class="negative">3.96%</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="7" class="ui right aligned">
+										<a class="more" href="#">点击查看更多动态>></a>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<div class="ui segment" id="news">
+							<div class="ui top attached label " id="news_title" >
+								<i class="info circle icon"></i>
+								<span>最新资讯</span>
+							</div>
+							<ul>
+								<li><span class="new">new!!</span><a href="">2015/08/15 蓝翔毕业了</a></li>
+								<li><a href="">2015/08/03 周董创建新基金组织，名为小公举</a></li>
+								<li><a href="">2015/08/03 周董创建新基金组织</a></li>
+								<li><a href="">2015/08/03 周董创建新基金组织</a></li>
+								<li><a href="">2015/08/03 周董创建新基金组织</a></li>
+								<p style="float:right;margin-top:14px;">......<a href="#" class="more">more</a></p>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="footer-header">
+					<p>
+						<a href="#">保密及安全</a>
+						|
+						<a href="#">使用条款</a>
+						|
+						<a href="#">联系我们</a>
+					</p>
+					<p>Copyright xxx.com 未经许可不得转载.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

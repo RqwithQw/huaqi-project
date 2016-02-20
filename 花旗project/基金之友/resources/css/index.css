@@ -1,0 +1,184 @@
+body {
+	background-color: #e4e0e0;
+	position: absolute;
+}
+
+.whole_body {
+	width: 1000px;
+	background-color: white;
+	position: relative;
+	left: 180px;
+	height: 1000px;
+}
+
+.container {
+	text-align: center;
+	margin-left: 150px;
+}	
+
+#index_logo {
+	position: relative;
+	width: 28%;
+	height: 28%;
+	left: -480px;
+	top: -20px;
+}
+
+#right_top_col {
+	position: relative;
+	top: -100px;
+	right: -250px;
+}
+
+.top_link {
+	color:black;
+	font-size: 18px;
+}
+
+.search_box {
+	position: relative;
+	top: 20px;
+	right: -20px;
+	width: 300px;
+}
+
+.main_nav {
+	width: 1000px;
+	position: relative;
+	left: 0px;
+	top: -80px;
+}
+
+#ad_show img {
+	width: 700px;
+}
+
+.first_index {
+	height: 1000px;
+}
+
+#login_box {
+	width: 300px;
+	height: 370px;
+	background-image: url(../images/login_background.png);
+	background-repeat:no-repeat;
+	position: relative;
+	top: -380px;
+	right: -670px;
+}
+
+.login_title {
+	font-size: 23px;
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+.login_form {
+	position: relative;
+	top: 60px;
+	left: 50px;
+	width: 200px;
+}
+
+.online_bank {
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+#treands {
+	width: 620px;
+	font-size: 14px;
+	position: relative;
+	top: -350px;
+}
+
+#news {
+	width: 330px;
+	position: relative;
+	top: -585px;
+	left: 650px;
+}
+
+
+#head_shot {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 60px;
+	right: -100px;
+	margin-bottom: 20px;
+}
+
+.profile_title {
+	font-size: 23px;
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+#profile_box {
+	width: 300px;
+	height: 370px;
+	background-image: url(../images/login_background.png);
+	background-repeat:no-repeat;
+	position: relative;
+	top: -380px;
+	right: -670px;
+}
+
+#reg_back_but {
+	width: 61px;
+	height: 44px;
+	position: absolute;
+}
+
+#reg_back_but img {
+	position: relative;
+	top: -7px;
+	left: -19px;
+}
+
+#reg_info_title {
+	font-size: 30px;
+	position: relative;
+
+	left: 130px;
+}
+
+#register_box {
+	width: 740px;
+	height: 1000px;
+	position: absolute;
+	background-image: url(../images/register_background.png);
+	top: 100px;
+	left: 130px;
+
+}
+
+#register_info {
+	width: 300px;
+	position: relative;
+	left: 210px;
+}
+
+.fred {
+	color: red;
+}
+
+#get_ic {
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+	position: relative;
+	top: -38px;
+	left: 310px;
+}
+
+#register_but {
+	background-color: red;
+	height: 40px;
+	float: right;
+	width: 100px;
+}

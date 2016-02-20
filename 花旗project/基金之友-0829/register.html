@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>基金之友</title>
+		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+		<script src="resources/js/jquery.min.js"></script>
+		<script src="semantic/dist/semantic.js"></script>
+		<script src="resources/js/register.js"></script>
+	</head>
+
+	<body>
+		<div class="whole_body">
+			<div class="header">
+				<div class="header_left">
+					<a href="index_before_login.html">
+						<img src="resources/images/logo.png" id="index_logo" alt="index_logo" name="index_logo">
+					</a>
+				</div>
+				<div class="header_right">
+					<div class="links">
+						<a href="web_map" class="top_link">网站地图</a>
+						|
+						<a href="contact_us" class="top_link">联系我们</a>
+						|
+						<a href="our_group" class="top_link">基友集团</a>
+						|
+						<a href="work_related" class="top_link">工作相关</a>
+					</div>
+					<div class="search">
+						<input class="search_input" type="text" placeholder="搜索...">
+						<button class="search_button">搜索</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="main_nav">
+				<div class="ui top attached tabular menu nav_bar">
+					<a class="item first_nav nav_active" href="index_before_login.html">主页</a>
+					<a class="item" href="#">最新信息</a>
+					<a class="item" href="#">购买指南</a>
+					<img src="resources/images/bar.png" class="bar">
+				</div>
+				
+				<div class="first_index" style="border-bottom:0px;">
+					<div class="message_line">
+						<div id="reg_back_but">
+							<a href="index_before_login.html"><img src="resources/images/back_but.png"></a>
+						</div>
+						<div id="reg_info_title">欢迎加入基友大家庭,在填写信息时请确保信息无误</div>
+					</div>
+					
+					<div id="register_box">
+						<form class="ui form" id="register_info">
+							<div class="field">
+								<label><span class="fred">*</span>用户名</label>
+								<input type="text" name="username">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>密码</label>
+								<input type="password" name="password">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>重复密码</label>
+								<input type="password" name="repeat_password">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>邮箱</label>
+								<input type="text" name="email">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>真实姓名</label>
+								<input type="text" name="real_name">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>身份证号码</label>
+								<input type="text" name="id_num">
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>手机号码</label>
+									<input type="text" id="phone_num" name="phone_num">
+									<button class="ui button" id="get_ic">获取验证码</button>					
+							</div>
+							<div class="field">
+								<label><span class="fred">*</span>验证码</label>
+								<input type="text" name="ic">
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input id="isagreed" type="checkbox" name="jiyoutiaoli">
+									<label>我已阅读并同意《<a href="jiyoutiaoli">基友条例</a>》</label>
+								</div>
+							</div>
+							<button class="ui button" type="submit" id="register_but"><a href="index_after_login.html">注册</a></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="footer-header">
+					<p>
+						<a href="#">保密及安全</a>
+						|
+						<a href="#">使用条款</a>
+						|
+						<a href="#">联系我们</a>
+					</p>
+					<p>Copyright xxx.com 未经许可不得转载.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+
+    <title>基金之友</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="semantic/dist/semantic.js"></script>
+    <script src="resources/js/index.js"></script>
+    
+  </head>
+  <body>
+    <div class="whole_body">
+      <div class="container">
+        <img src="resources/images/logo.png" id="index_logo" alt="index_logo">
+        <div id="right_top_col">
+          <div class="top_right_link">
+            <a href="web_map" class="top_link">网站地图</a>
+            |
+            <a href="contact_us" class="top_link">联系我们</a>
+            |
+            <a href="our_group" class="top_link">基友集团</a>
+            |
+            <a href="work_related" class="top_link">工作相关</a>
+          </div>
+          <div class="ui mini action input search_box">
+            <input type="text" placeholder="搜索...">
+            <div class="ui button">搜索</div>
+          </div>
+        </div>
+      </div>
+      <div class="main_nav">
+        <div class="ui top attached tabular menu nav_bar">
+          <a class="item active" data-tab="first">主页</a>
+          <a class="item" data-tab="second">最新信息</a>
+          <a class="item" data-tab="third">购买指南</a>
+        </div>
+
+
+        <div class="ui bottom attached tab segment active first_index" data-tab="first">
+          
+          <div id="ad_show">
+            <img src="resources/images/index_ad.png" alt="主页广告">
+          </div>
+          <div id="profile_box">
+            <span class="profile_title">用户</span>
+            <div class="head_shot_box">
+              <img src="resources/images/head_shot.jpg" alt="head_shot" name="head_shot" id="head_shot">
+            </div>
+            <span class="profile_title">网上银行</span>
+            <div class="online_bank">
+              <span class="large_context">个人</span>
+              <br>
+              <a href="safe_info">安全信息</a>
+              |
+              <a href="account_setting">帐号设定</a>
+              |
+              <a href="my_bank">我的银行</a>
+              <br>
+              <span class="large_context">业务</span>
+              <br>
+              <a href="had_bought">已购买的基金</a>
+              |
+              <a href="goto_market">前往基金市场</a>
+            </div>
+          </div>
+
+
+          <table class="ui celled padded table" id="treands">
+            <thead>
+              <tr><th colspan="7"><i class="line chart icon"></i>基金动态</th></tr>
+              <tr><th class="single line">基金代码</th>
+              <th>简称</th>
+              <th>基金类型</th>
+              <th>单位净值</th>
+              <th>累计净值</th>
+              <th>日增长值</th>
+              <th>日增长率</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h3 class="ui header">100522</h3>
+                </td>
+                <td class="single line">
+                  蓝翔技校
+                </td>
+                <td>
+                  股票型
+                </td>
+                <td>0.9974</td>
+                <td>0.9974</td>
+                <td>0.0380</td>
+                <td>3.96%</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th colspan="7" class="ui right aligned">
+                  <a href="more">点击查看更多动态>></a>
+                </th>
+            </tr></tfoot>
+          </table>
+
+          <table class="ui celled padded table" id="news">
+            <thead>
+              <tr><th colspan="1"><i class="info circle icon"></i></i>最新资讯</th></tr>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>
+                    <a href="">new!! 2015/08/15 蓝翔毕业了</a>
+                    <br>
+                    <a href="">2015/08/03 周董创建新基金组织</a>
+                    <br>
+                    <a href="">2015/08/03 周董创建新基金组织</a>
+                    <br>
+                    <a href="">2015/08/03 周董创建新基金组织</a>
+                    <br>
+                    <a href="">more...</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="second">Second </div>
+        <div class="ui bottom attached tab segment" data-tab="third">Third </div>
+      </div>
+    </div>
+  </body>
+</html>
